@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    /* default theme is light */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Dark mode styles */
+  html.dark {
+    background-color: #1f2937; /* dark background */
+    color: white; /* light text */
+  }
+  
+  body {
+    background-color: #f9fafb; /* light background */
+  }
+  
+  body.dark {
+    background-color: #111827; /* dark background */
+  }
